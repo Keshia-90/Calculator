@@ -1,10 +1,10 @@
 
 
-const Numbers = ({handleClick}) => {
+const Numbers2 = ({handleClick}) => {
     const buttons =[
-        '9', 
-        '8', 
-        '7', 
+        '6', 
+        '5', 
+        '4',  
     ];
     return ( 
     <div>
@@ -15,4 +15,4 @@ const Numbers = ({handleClick}) => {
     );
 }
 
-export default Numbers;
+export default Numbers2;

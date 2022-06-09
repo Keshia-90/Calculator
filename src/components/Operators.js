@@ -1,5 +1,6 @@
+
 const Operators = ({handleClick}) => {
-    const operatorButtons = ['+', '-', '*', '/']
+    const operatorButtons = ['+', '-', '*', '/', '=', 'c', '.']
     return ( 
     <div>
         {operatorButtons.map((button)=>(

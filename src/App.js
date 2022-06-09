@@ -3,6 +3,8 @@ import { useState } from 'react';
 import './App.css';
 import Numbers from './components/Numbers';
 import Operators from './components/Operators';
+import Numbers2 from './components/Numbers2';
+import Numbers3 from './components/Numbers3';
 
 const App  = () => {
   const [input, setInput]= useState('');
@@ -28,6 +30,8 @@ const App  = () => {
     <h2 data-testid="display">{input}</h2>
     <Operators handleClick={handleClick}/>
     <Numbers handleClick={handleClick} />
+    <Numbers2 handleClick={handleClick} />
+    <Numbers3 handleClick={handleClick} />
     </div>  
     );
 };
